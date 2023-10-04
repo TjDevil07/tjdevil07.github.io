@@ -1307,7 +1307,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/db.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1534,7 +1534,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: 646060;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1986,6 +1986,7 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
+				background-color: rgba(204, 224, 255, 0.3);
 				-moz-flex-direction: row;
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
